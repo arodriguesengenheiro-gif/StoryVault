@@ -1,35 +1,31 @@
 # StoryVault
 
-QA and software testing project focused on REST API testing, test
-automation and software quality practices.
+## QA & Software Testing Project
 
-## About the Project
+StoryVault is a practical project created to develop and demonstrate
+software quality assurance and testing skills through a REST API.
 
-StoryVault is a practical project developed to simulate a real-world
-QA workflow throughout the software development lifecycle.
+The project is being developed incrementally, following practices
+commonly used in real-world software development and QA workflows.
 
-The project is being built incrementally, with testing activities
-introduced alongside the development of the application.
-
-## Current Status
+## Project Status
 
 🚧 In development
 
-The current version includes a REST API built with Node.js and Express.
+The current version includes a REST API built with Node.js and Express,
+along with API testing using Postman and automated tests.
 
-## API Endpoints
+## Current API
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | /health | API health check |
+| GET | /health | Checks API availability |
 | GET | /projects | Returns all projects |
-| GET | /projects/:id | Returns a project by ID |
+| GET | /projects/:id | Returns a specific project |
 
-## Testing
+## Current Testing Activities
 
-Current testing activities include:
-
-- Functional API testing
+- API functional testing
 - Positive and negative test scenarios
 - HTTP status code validation
 - JSON response validation
@@ -47,14 +43,23 @@ Current testing activities include:
 - Git
 - GitHub
 
+## QA Practices
+
+The project is being expanded to include:
+
+- Test planning
+- Test cases
+- API testing
+- Regression testing
+- Bug reporting
+- Test automation
+- Continuous Integration
+
 ## Purpose
 
-This project is part of my practical journey into Quality Assurance
-and Software Testing.
-
-It is continuously evolving to incorporate real-world QA practices,
-including test planning, API testing, automation, regression testing,
-bug reporting and CI/CD.
+The goal of StoryVault is to simulate a practical QA workflow,
+from requirements and API development to testing, defect reporting,
+automation and regression testing.
 
 ## Author
 
